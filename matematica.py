@@ -1,0 +1,15 @@
+print ("**********************************************")
+print ("      SISTEMA DE EXPRESSÃO MATEMÁTICA")
+print ("**********************************************")
+print ("Dadas duas variáveis, a e b, ambos com valor")
+print ("inicial 1, encontre o resultado da expressão:")
+print (" _____________________________________________")
+print ("|   [ ( a + b )² + 3a - b ] / ( a + b + 1)    |")
+print ("|_____________________________________________|")
+print ("**********************************************")
+
+a = int(input("Digite o valor de a: "))
+b = int(input("Digite o valor de b: "))
+
+resultado = ( (( a + b )*( a + b ))+ 3*a - b ) / ( a + b + 1)
+print (f"O resultado é: {resultado}")
